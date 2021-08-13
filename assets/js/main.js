@@ -1,6 +1,8 @@
+//*******************************************************************************
 function addBody(...text) {
     document.body.innerHTML += text + '<br>';
 }
+
 
 //*******************************************************************************
 // Lev1_14_js-einführung_boolean_comparisons
@@ -30,6 +32,7 @@ function addBody(...text) {
 // Lev1_15_js-einführung_comparisons
 {
     document.body.innerHTML += '<h3>Lev1_15_js-einführung_comparisons:</h3>';
+
     let num = 5;
     let anotherNum = 8;
     document.body.innerHTML += 'let num = 5;<br>'
@@ -111,17 +114,6 @@ function addBody(...text) {
 //*******************************************************************************
 //  Lev1_8_js-einführung_arithmetic-operators
 {
-    /*
-    
-    * Deklariere zwei Variablen a mit dem Wert 15 und b mit dem Wert 9. Zeige den Rest an, wenn a durch b geteilt wird. Nutze Remainder(%).
-    
-    * Deklariere eine weitere Variable c mit dem Wert 20. Addiere a und b und multipliziere das Ergebnis mit c. Speichere das Ergebnis in der Variable resultTwo. Gib resultTwo in der Konsole aus.
-    
-    * Inkrementiere a. Gib das Ergebnis in der Konsole aus.
-    * Dekrementiert b. Gib das Ergebnis in der Konsole aus.
-    * Subtrahiere b von a und speichere das Ergebnis in einer neuen Variablen resultThree.
-    * Gib den Rest aus wenn resultOne durch resultTwo geteilt wird in der Konsole aus. Nutze Remainder(%).
-    */
     document.body.innerHTML += '<h3>Lev1_8_js-einführung_arithmetic-operators:</h3>';
 
     // Deklariere die Variablen x = 20, y = 30.
